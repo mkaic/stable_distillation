@@ -1,0 +1,22 @@
+name: distillery
+channels:
+  - pytorch
+  - xformers/label/dev
+  - defaults
+dependencies:
+  - pip
+  - pytorch::pytorch>=1.12
+  - pytorch::torchvision>=0.12
+  - black  
+  - xformers/label/dev::xformers
+  # - notebook
+  # - nb_conda_kernels
+  # - ipykernel
+  - pip:
+    # - --editable git+https://github.com/huggingface/diffusers
+    - transformers
+    - datasets
+    - accelerate
+    - scipy
+    - ftfy
+    - opencv-python-headless

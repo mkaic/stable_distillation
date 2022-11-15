@@ -1,0 +1,5 @@
+token.txt
+git_config.sh
+__pycache__
+*.pyc
+*.code-workspace
